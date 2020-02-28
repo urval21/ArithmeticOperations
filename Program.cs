@@ -13,13 +13,13 @@ namespace ArithmeticOperations
             switch (flag)
             {
                 case 1:
-                     return ( Num1 + Num2);
+                     return (Num1 + Num2);
                     
                 case 2:
                      return (Num1 - Num2);
 
                 case 3:
-                     return ( Num1 * Num2);
+                     return (Num1 * Num2);
 
                 case 4:
                     {
@@ -52,8 +52,8 @@ namespace ArithmeticOperations
 
                     Console.WriteLine("Enter the Second Number: ");
                     Num2 = Convert.ToDouble(Console.ReadLine());
-
-                    Console.WriteLine("Main Menu:\n");
+                   
+                    Console.WriteLine("\nMain Menu:\n");
 
                     Console.WriteLine("1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n");
 
@@ -61,7 +61,7 @@ namespace ArithmeticOperations
 
                     flag = Convert.ToInt32(Console.ReadLine());
 
-                    Console.WriteLine("The output of the Basic Arithmetic Operation is: " + basicArithmetic(Num1, Num2, flag));
+                    Console.WriteLine("\nThe output of " + Num1 + " and " + Num2 +  " is: "  + basicArithmetic(Num1, Num2, flag));
 
             }
 
